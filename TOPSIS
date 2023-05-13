@@ -6,6 +6,7 @@ name = "TOPSIS"
 __author__ = 'SHAHNAZ Hatami(Shani)'
 
 
+
 def main():
     # Arguments not equal to 5
     # print("Checking for Errors...\n")
