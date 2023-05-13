@@ -14,6 +14,7 @@ def main():
         print("ERROR : NUMBER OF PARAMETERS")
         print("USAGE : Python TOPSIS.py inputfile.csv '1,1,1,1' '+,+,-,+' result.csv ")
         exit(1)
+        
 
     # File Not Found error
     elif not os.path.isfile(sys.argv[1]):
