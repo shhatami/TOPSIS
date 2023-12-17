@@ -7,7 +7,7 @@ def Normalize_Decision_Matrix(Decision_Matrix, Attribute_Type, Normal_Method):
         elif Attribute_Type[i] == 0: 
             Type = "cost"
         else:
-            "Please, fill the correct attribute type"
+            "Please, fill the correct attribute type" 
 
         Decision_Matrix.iloc[:, i] = Normal_Method(Decision_Matrix.iloc[:, i], Type)
     return Decision_Matrix
