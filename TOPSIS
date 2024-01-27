@@ -3,7 +3,7 @@ import os
 import sys
 
 name = "TOPSIS"
-__author__ = 'SHAHNAZ Hatami(Shani)' 
+__author__ = 'SHAHNAZ Hatami(Shani)'  
 
 
 
